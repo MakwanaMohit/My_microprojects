@@ -1,3 +1,4 @@
+# ==========inport part ==========
 import math 
 
 # ============Function===============
@@ -43,7 +44,7 @@ def cosθ():
 
     v2_x = (int((vector_2)[2:4]))
     v2_y = (int((vector_2)[6:8]))
-    v2_z = (int((vector_2)[10:12]))
+    v2_z=(int((vector_2)[10:12]))
 
     dotproduct = (v1_x * v2_x) + (v1_y * v2_y) + (v1_z * v2_z)
     magn_A = (v1_x)**2 + (v1_y)**2 + (v1_z)**2
@@ -60,7 +61,8 @@ def cosθ():
     print("Magnitude of vector 2 :")
     print("|"+str(magn_B)+"|\n")
 
-    print("value of :θ = ",("sin\u207B\u00b9 ("+str(dotproduct)+"\n                     /√"+str(magn_A*magn_B)+")"))
+    print("value of :θ = ",("sin\u207B\u00b9 ("+str(dotproduct)+
+                            "\n                     /√"+str(magn_A*magn_B)+")"))
     print("degree of :θ = \t",angle_degree)
 
 

@@ -1,3 +1,4 @@
+# ============import part ===========
 from tkinter import *
 import math 
 
@@ -178,10 +179,10 @@ e8.place(x=340,y=430)
 
 # ============button==========
 
-button_1 = Button(root,width=7,text="sin θ ",font=('arial 20',15,'bold') ,command=lambda:sinθ())
+button_1 = Button(root,width=7,text="sin θ ",font=('arial 20',15,'bold') ,command=sinθ)
 button_1.place(x=110,y=510)
 
-button_2 = Button(root,width=7,text="cos θ ",font=('arial 20',15,'bold') ,command=lambda:cosθ())
+button_2 = Button(root,width=7,text="cos θ ",font=('arial 20',15,'bold') ,command=cosθ)
 button_2.place(x=270,y=510)
 
 root.mainloop()
