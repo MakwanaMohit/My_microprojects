@@ -1,5 +1,5 @@
 import math 
-# this is tkinter project
+
 # ============Function===============
 
 def sinθ():
