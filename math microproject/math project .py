@@ -1,5 +1,5 @@
 import math 
-# ==========Function===============
+# ============Function===============
 
 def sinθ():
     v1_x = (int((vector_1)[2:4]))
