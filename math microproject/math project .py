@@ -1,4 +1,4 @@
-# ==========Inport Part ==========
+# ==========Import Part ==========
 import math 
 
 # ============Function===============
