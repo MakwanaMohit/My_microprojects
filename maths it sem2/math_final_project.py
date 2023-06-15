@@ -1,20 +1,19 @@
-
-
+# import part
 import pyperclip 
 
 # =====================Function=====================
 
 def matrix_valid(array):
-  column_check = len(array[0])
-  try:
-      for i in range(len(array)):
-          if len(array[i]) != column_check:
-              raise ValueError("you enter an invail matrix please enter an valid matrix")
-  except ValueError as e:
-    print(e)
-    return False
-  else:
-      return True
+   column_check = len(array[0])
+   try:
+       for i in range(len(array)):
+           if len(array[i]) != column_check:
+               raise ValueError("you enter an invail matrix please enter an valid matrix")
+   except ValueError as e:
+     print(e)
+     return False
+   else:
+       return True
         
 def multiplication_valid(array1,array2):
   if(matrix_valid(array1) and matrix_valid(array2)):

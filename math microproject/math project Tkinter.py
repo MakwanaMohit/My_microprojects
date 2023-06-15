@@ -1,4 +1,4 @@
-# ===import part ===
+# ===import part ======
 from tkinter import *
 import math 
 
